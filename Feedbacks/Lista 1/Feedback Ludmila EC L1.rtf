@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Opa, Ludmila, tudo certo? Sou T\'falio e, durante esse per\'edodo, vou ficar respons\'e1vel por te mandar feedbacks das tuas listas. Esses feedbacks t\'eam o intuito de te fazer melhorar ainda mais, a gente pode dar dicas de boas pr\'e1ticas, outras poss\'edveis solu\'e7\'f5es e coisas do g\'eanero.\
+Antes de come\'e7ar, queria te parabenizar por ter conseguido fazer todas as quest\'f5es, o importante \'e9 tentar fazer todas sempre, \'e9 isso que vai trazer familiaridade com a linguagem. Sem mais delongas, vamos ao feedback da lista 1, sobre comandos condicionais.\
+Em geral, seus c\'f3digos est\'e3o bem escritos, contando com uma boa nomenclatura de vari\'e1veis e poucas repeti\'e7\'f5es desnecess\'e1rias. Boa l\'f3gica imposta, aparentemente tivesse poucos problemas pra resolver a lista.\
+O \'fanico fator que pecasse na resolu\'e7\'e3o das quest\'f5es foi quanto \'e0 organiza\'e7\'e3o dos teus c\'f3digos. Em grande maioria h\'e1 uma dificuldade na legibilidade principalmente pela falta de espa\'e7amentos entre os condicionais. A organiza\'e7\'e3o \'e9 uma \'f3tima pr\'e1tica de programa\'e7\'e3o porque permite ter um c\'f3digo mais leg\'edvel e facilmente entend\'edvel para voc\'ea que est\'e1 programando e para outros programadores que possam ver teu c\'f3digo. Ent\'e3o a dica da monitoria \'e9 essa: espa\'e7amento entre blocos de comandos \'e9 sempre bem vindos! E s\'f3 mais um detalhe, em python usamos uma conven\'e7\'e3o de padroniza\'e7\'e3o de c\'f3digos onde as vari\'e1veis s\'e3o nomeadas em min\'fasculo, sem caracteres especiais (\'e1, \'e9, \'e7, \'f3, \'e3, etc) e em snake_case!\
+Outra ponto a se comentar \'e9 com o teu uso de casting, quanto a tratar \'e0s vari\'e1veis num\'e9ricas a receber utilizando 
+\f1\i variavel_numerica =
+\f0\i0  
+\f1\i int(input())
+\f0\i0 , tudo certo! Por\'e9m quando a vari\'e1vel esperada \'e9 uma string, n\'e3o precisa usar o str(), \'e9 uma redund\'e2ncia pois por padr\'e3o a fun\'e7\'e3o 
+\f1\i input()
+\f0\i0  atribui um valor do tipo string \'e0 vari\'e1vel de entrada! Portanto, se a vari\'e1vel esperada for uma string n\'e3o use:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\i \cf0 variavel_string = str(input())
+\f0\i0 \
+use no lugar:\
+
+\f1\i variavel_string = input()
+\f0\i0 \
+Outra coisa legal do python que voc\'ea pode utilizar no lugar da concatena\'e7\'e3o de vari\'e1veis para estiliza\'e7\'e3o de strings \'e9 um atalho nativo do python para a fun\'e7\'e3o 
+\f1\i .format
+\f0\i0  que \'e9 a chamada 
+\f1\i f string
+\f0\i0 . Por exemplo, voc\'ea pode fazer a seguinte substitui\'e7\'e3o:\
+
+\f1\i print(\'92Ol\'e1, \'92 + nome + \'91!\'92)
+\f0\i0 \
+para\
+
+\f1\i print(f\'92Ol\'e1, \{nome\}!\'92)
+\f0\i0 \
+Bom, eram esses os coment\'e1rios que eu tinha pra fazer. Mais uma vez parab\'e9ns por concluir a lista toda. Qualquer d\'favida que tu tiver sobre a lista ou algo que eu expliquei pode me buscar no discord, meu login \'e9 toa. Parab\'e9ns novamente!\
+}

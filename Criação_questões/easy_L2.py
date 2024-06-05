@@ -10,8 +10,8 @@ pratica_7, pts_pratica_7 = 'Tirar dúvidas com os monitores e professores', 10
 #Más práticas de programação
 pratica_8, pts_pratica_8 = 'Programar sem utilizar IDE', -5
 pratica_9, pts_pratica_9 = 'Código bagunçado e mal estruturado', -6
-pratica_10, pts_pratica_10 = 'Nomenclatura confusa e difícil de identificar variáveis', -5
-pratica_11, pts_pratica_11 = 'Não tirar dúvidas com professores e monitores ', -10
+pratica_10, pts_pratica_10 = 'Nomenclatura confusa e difícil de identificação variáveis', -5
+pratica_11, pts_pratica_11 = 'Não tirar dúvidas com professores e monitores', -10
 
 qtd_combinacoes = int(input())
 pontuacao_total = 0
@@ -78,3 +78,4 @@ elif media_geral > 7 and media_geral < 9:
 
 else:
     print('Já pode ser chamado de Kanye, the dev, West!')
+
